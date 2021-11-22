@@ -28,3 +28,8 @@ userService.list()
 // customer.lastName = "Demiroğ";
 
 // console.log(customer);
+
+console.log("-------------------------------");
+userService.load();
+console.log(userService.customers);
+console.log(userService.employees);
