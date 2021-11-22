@@ -21,15 +21,17 @@ userService.list()
 
 
 
-// let customer = {id:1, firstName: "Engin"};
+let customer = {id:1, firstName: "Engin"};
 
 // // Prototyping
 
-// customer.lastName = "Demiroğ";
+customer.lastName = "Demiroğ";
 
-// console.log(customer);
+console.log(customer.lastName);
 
 console.log("-------------------------------");
+
 userService.load();
 console.log(userService.customers);
 console.log(userService.employees);
+console.log(userService.errors);
